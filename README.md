@@ -1,6 +1,6 @@
 **main.py**
 ```
-python2 main.py
+python3 main.py
 ```
 **mouse-listener**
 ```
